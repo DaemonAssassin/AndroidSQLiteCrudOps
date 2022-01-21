@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/teal_200"
+    android:padding="16dp"
+    tools:context=".activity.MainActivity" >
+
+    <EditText
+        android:id="@+id/et_roll_no"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="16dp"
+        android:hint="Enter roll no"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:hint="Enter name"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_add_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_delete_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_update_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_view_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
